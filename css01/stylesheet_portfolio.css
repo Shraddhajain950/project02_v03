@@ -1,0 +1,155 @@
+.navigation_bar ul {
+ list-style-type: none;
+ padding: 0;
+ margin: 0;
+ overflow: hidden;
+ background-color: #333333;
+}
+
+.nav_bar {
+  float: right;
+}
+
+.nav_bar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  line-height:45px;
+}
+
+.nav_bar a:hover:not(.active) {
+  background-color: green;
+}
+
+.active {
+  background-color:#04AA6D;
+}
+
+.resume {
+  position: absolute;
+  margin-left:10%;
+  margin-right:10%;
+  padding: 2px;
+  width: 70%;
+}
+
+
+.title {
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  font-size: 130%;
+  font-weight:bold;
+  color: green;
+}
+
+table {
+  width: 95%;
+  margin: 2%;
+  table-layout: fixed;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+  border-spacing: 0px;
+}
+
+body {
+ background-color:#f2f2f2;
+ font-family:'Inter', sans-serif;
+ font-size: 95%;
+}
+ 
+.action_statement {
+  text-align: center;
+  margin:10%;
+  top: 80px;
+  bottom:80px;
+  width:80%;
+  color: black;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}
+
+.About_me {
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  left: 100px;
+  top:15px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+}  
+
+.container {
+  display: flex;
+}
+
+.mywork {
+	width: 80%;
+}
+
+img {
+  max-width: 100%
+}
+
+
+.text {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right:70px;
+  font-family: 'Inter', sans-serif;
+  font-size: 90%;
+  margin:auto;
+  margin-left:auto;
+  width:100%;
+}
+
+.my_art {
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  left: 100px;
+  top:15px;
+  font-family: 'Inter', sans-serif;
+  font-size:90%;
+}  
+.mandala {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.name {
+  font-family: 'Inter', sans-serif;
+  font-size:200%;
+  text-align: center;
+  color: Green;
+}
+
+.contact_details {
+ font-family: 'Inter', sans-serif;
+ font-size:100%;
+ text-align: center;
+}
+
+
+video {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.portfolio02 {
+  text-align: center
+}
+
+.paypal_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
