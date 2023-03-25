@@ -1,9 +1,10 @@
+Navigation Bar
 .navigation_bar ul {
- list-style-type: none;
- padding: 0;
- margin: 0;
- overflow: hidden;
- background-color: #333333;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: #333333;
 }
 
 .nav_bar {
@@ -29,6 +30,14 @@
   background-color:#04AA6D;
 }
 
+body {
+ background-color:#f2f2f2;
+ font-family:'Inter', sans-serif;
+ font-size: 95%;
+}
+
+Resume
+
 .resume {
   position: absolute;
   margin-left:10%;
@@ -36,8 +45,6 @@
   padding: 2px;
   width: 70%;
 }
-
-
 .title {
   font-family: 'Inter', sans-serif;
   text-align: left;
@@ -45,7 +52,6 @@
   font-weight:bold;
   color: green;
 }
-
 table {
   width: 95%;
   margin: 2%;
@@ -54,13 +60,20 @@ table {
   text-align: left;
   border-spacing: 0px;
 }
-
-body {
- background-color:#f2f2f2;
- font-family:'Inter', sans-serif;
- font-size: 95%;
+.name {
+  font-family: 'Inter', sans-serif;
+  font-size:200%;
+  text-align: center;
+  color: Green;
 }
- 
+
+.contact_details {
+ font-family: 'Inter', sans-serif;
+ font-size:100%;
+ text-align: center;
+}
+
+Homepage
 .action_statement {
   text-align: center;
   margin:10%;
@@ -71,7 +84,6 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
 }
-
 .About_me {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
@@ -81,31 +93,9 @@ body {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
 }  
-
 .container {
   display: flex;
 }
-
-.mywork {
-	width: 80%;
-}
-
-img {
-  max-width: 100%
-}
-
-
-.text {
-  font-size: 20px;
-  padding-left: 50px;
-  padding-right:70px;
-  font-family: 'Inter', sans-serif;
-  font-size: 90%;
-  margin:auto;
-  margin-left:auto;
-  width:100%;
-}
-
 .my_art {
   text-align: center;
   margin-left: 10%;
@@ -120,33 +110,36 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 30%;
+} 
+
+My Work 
+.mywork {
+	width: 80%;
 }
 
-.name {
+img {
+  max-width: 100%
+} 
+
+.text {
+  font-size: 20px;
+  padding-left: 50px;
+  padding-right:70px;
   font-family: 'Inter', sans-serif;
-  font-size:200%;
-  text-align: center;
-  color: Green;
+  font-size: 90%;
+  margin:auto;
+  margin-left:auto;
+  width:100%;
 }
-
-.contact_details {
- font-family: 'Inter', sans-serif;
- font-size:100%;
- text-align: center;
-}
-
-
 video {
   width: 50%;
   height: auto;
   display: block;
   margin: 0 auto;
 }
-
 .portfolio02 {
   text-align: center
 }
-
 .paypal_image {
   display: block;
   margin-left: auto;
