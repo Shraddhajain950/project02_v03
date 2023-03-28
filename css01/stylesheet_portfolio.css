@@ -68,7 +68,7 @@ body {
  
 .action_statement {
   text-align: center;
-  margin:10%;
+  margin:0 10%;
   top: 80px;
   bottom:80px;
   width:80%;
@@ -128,6 +128,8 @@ img {
 }
 
 .name {
+  position: relative;
+  margin: 10%;
   font-family: 'Inter', sans-serif;
   font-size:200%;
   text-align: center;
